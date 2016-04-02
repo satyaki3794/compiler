@@ -1,0 +1,155 @@
+////////////////////////////////////////////////////////////////	undeclared function name
+
+NAMASKAR;
+
+FUNC addn[ANK x, ANK y]
+<<
+	x = y + 5;
+>>
+
+MUKHYA
+<<
+	ANK x;
+	ANK n;
+
+	LIKHO "Enter two numbers";
+
+	PADHO x;
+	PADHO n;
+
+	x = FUNC Addn[x,n];
+
+	LIKHO x;
+>>
+
+ALVIDA;
+
+
+////////////////////////////////////////////////////////////////////	incorrect number of function arguments
+
+NAMASKAR;
+
+FUNC addn[ANK x, ANK y]
+<<
+	x = y + 5;;
+>>
+
+MUKHYA
+<<
+	ANK x;
+	ANK n;
+	ANK z;
+
+	LIKHO "Enter two numbers";
+
+	PADHO x;
+	PADHO n;
+	PADHO z;
+
+	x = FUNC addn[x,n,z];
+
+	LIKHO x;
+>>
+
+ALVIDA;
+
+
+///////////////////////////////////////////////////////		function parameter mismatch
+
+
+NAMASKAR;
+
+FUNC addn[ANK x, ANK y]
+<<
+	x = y + 5;;
+>>
+
+MUKHYA
+<<
+	ANK x;
+	DMLV n;
+	ANK z;
+
+	LIKHO "Enter two numbers";
+
+	PADHO x;
+	PADHO n;
+	PADHO z;
+
+	x = FUNC addn[x,n,z];;
+
+	LIKHO x;
+>>
+
+ALVIDA;
+
+
+////////////////////////////////////////////////	type mismatch
+
+NAMASKAR;
+MUKHYA
+<<
+	ANK n;
+	ANK a;
+	DMLV r;
+
+	n = 5;
+	a = 5;
+	r = 7.4;
+	
+	r = n + a;
+	
+>>
+ALVIDA;
+
+
+////////////////////////////////////////////////////		recursive function call
+
+
+NAMASKAR;
+
+FUNC addn[ANK x, ANK y]
+<<
+	x = y + 5;
+	FUNC addn[x,y];
+>>
+
+MUKHYA
+<<
+	ANK x;
+	ANK n;
+	ANK z;
+
+	LIKHO "Enter two numbers";
+
+	PADHO x;
+	PADHO n;
+	PADHO z;
+
+	x = FUNC addn[x,n,z];
+
+	LIKHO x;
+>>
+
+ALVIDA;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+NAMASKAR;
+MUKHYA<<
+
+	LIKHO "Hello World";
+>>
+ALVIDA;
+
+///////////////////////////////////////
+
+NAMASKAR;
+MUKHYA<<
+
+	ANK x;
+	ANK y;
+	x = 2;
+	y = 3;
+
+	YADI (x < y)<<
+		LIKHO "Greater";
+	>>
+	ATHVA<<
+		LIKHO "Lesser";
+	>>
+>>
+ALVIDA;
+
+///////////////////////////////////////////
+
+
+NAMASKAR;
+MUKHYA
+<<
+	ANK x;
+	x x = x 2;;
+
+	LIKHO x;
+
+	ANK y;
+	y y = y 3;;
+	PADHO y;
+
+	LIKHO y;
+>>
+ALVIDA;
+
+
+
+

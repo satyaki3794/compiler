@@ -1,0 +1,83 @@
+//Test case for symbol table
+
+NAMASKAR;
+MUKHYA<<
+	AVYUH {ANK, 10}y;
+	AVYUH {ANK, 10}z;
+	ANK x;
+	ANK r;
+	x y[3] = r (z[3]+2);;
+>>
+ALVIDA;
+
+////////////////////
+
+NAMASKAR;
+MUKHYA
+<<
+	ANK x,n;
+	LIKHO "Enter two numbers";
+	PADHO x;
+	PADHO n;
+	LIKHO x;
+>>
+ALVIDA;
+
+////////////////////
+
+NAMASKAR;
+MUKHYA
+<<
+	ANK n;
+	PADHO n;
+	YADI ( n % 2 == 0 ) 
+	<<
+		LIKHO "even";
+	>>
+	ATHVA 
+	<<
+		LIKHO "odd";
+	>>
+>>
+ALVIDA;
+
+////////////////////
+
+NAMASKAR;
+MUKHYA
+<<
+	ANK a;
+	DMLV b;
+	ANK c;
+
+
+>>
+ALVIDA;
+
+//////////////////////
+
+NAMASKAR;
+MUKHYA
+<<
+
+ANK x;
+x x = x 2;;
+
+YADI(x > 2)
+<<
+w x = y x + 0;;
+>>
+ATHVA
+<<
+w x = r x - 1;;
+>>
+
+LIKHO x;
+
+>>
+ALVIDA;
+
+
+
+
+

@@ -1,0 +1,25 @@
+NAMASKAR;
+
+FUNC addn[ANK x, ANK y]
+<<
+	x = y + 5;;
+>>
+
+MUKHYA
+<<
+	ANK x;
+	DMLV n;
+	ANK z;
+
+	LIKHO "Enter two numbers";
+
+	PADHO x;
+	PADHO n;
+	PADHO z;
+
+	x = FUNC addn[x,n,z];;
+
+	LIKHO x;
+>>
+
+ALVIDA;
