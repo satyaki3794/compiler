@@ -7,6 +7,8 @@ This repository contains the 'Bhasha' language compiler developed as part of Com
 
 The tokens and grammar of the language is provided in the pdf.
 
+#### lexer.c
+This file contains the lexer, which generates lexemes for use by parser and other components.
 #### parser.c
 This file contains the code for the parser, which works on the output of the lexer and generates the parse tree. The AST is then generated from the parse tree based on some common heuristics.
 #### type_checker.c
